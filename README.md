@@ -1,1 +1,2 @@
-# HTTP Smugeling
+# HTTP Smuggling
+This Python script tests how web servers handle HTTP headers by sending different types of requests and analyzing how the server responds. The script focuses specifically on testing two headers (Content-Length and Transfer-Encoding) to see if the server processes them consistently or shows signs of potential request smuggling vulnerabilities. The script sends these test requests to a target server and measures response times and patterns, which could indicate if the server is vulnerable to request smuggling attacks.
